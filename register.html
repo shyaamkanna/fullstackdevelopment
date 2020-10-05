@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title></title>
+<style>
+	ul
+	{
+		background-color: green;
+		height: 35px;
+		width:100%;
+	}
+	li{
+		list-style-type:none;
+		display:inline;
+		padding :40px;
+		margin-left:  175px;
+		text-align: center;
+		font-size: 25px;
+		}
+
+
+    /* unvisited link */            
+    a:link {
+        color: #ff0000;
+        text-decoration: none;
+    }
+    /* visited link */
+    a:visited {
+        color: #ff00ff;
+    }
+    /* mouse over link */
+    a:hover {
+        color: #00ff00;
+        
+    }
+    /* active link */
+    a:active {
+        color: #00ffff;
+    }
+</style>
+</head>
+<body>
+	<ul>
+		<li>    <a href="home.html" target="_blank"> Home </a></li>
+    	<li>	<a href="register.html" target="_blank"> Register</a></li>
+    	<li>	<a href="aboutus.html" target="_blank"> About us</a></li>
+    </ul>
+
+    <form action="post">
+        <center>
+        <label>Name:</label><input type="text" name="name" placeholder="Enter Name" required><br><br>
+        <label>Emailid:</label><input type="text" name="email" required><br><br>
+        <label>Phone number</label><input type="number" name="number"><br><br>
+        <label>Date of Birth</label><input  name="DOB" type="date" required><br><br>
+        <label>Address</label><textarea name="address" rows="9"> </textarea><br><br>
+        <label>Gender</label><br>
+        <input type="radio" name="male"> male<br>
+        <input type="radio" name="female"> female<br><br>
+        <input type="checkbox" name="sm" required>Please click this Check box<br><br>
+        <input type="submit" name="submit">
+        <input type="Button" value="Reset" name="Reset"><br><br>
+         
+        </center>
+
+    </form>
+</body>
+</html>                            
