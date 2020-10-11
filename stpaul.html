@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+<style type="text/css">
+	h2{
+		text-align: center;
+	}
+#image
+{
+	height: 100px;
+    width: 150px;
+
+}
+	.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  padding: 10px;
+}
+.grid-item {
+  background-color: rgba(255, 255, 255, 0.8);
+  padding: 5px;
+  text-align: center;
+  font-size: 20px;
+  width: 450px;
+}
+.button {
+  background-color: red; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+.column {
+  float: left;
+  width: 20%;
+  padding: 10px;
+  height: 230px; 
+}
+
+/* Clear floats after the columns */
+.row:after {
+  
+  display: table;
+  clear: both;
+}
+</style>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+</head>
+<body>
+
+<div class="container">
+  <div id="myCarousel" class="carousel slide" data-ride="carousel">
+    <!-- Indicators -->
+    <ol class="carousel-indicators">
+      <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+      <li data-target="#myCarousel" data-slide-to="1"></li>
+      <li data-target="#myCarousel" data-slide-to="2"></li>
+    </ol>
+
+    <!-- Wrapper for slides -->
+    <div class="carousel-inner">
+      <div class="item active">
+        <img src="myphoto.jpeg" alt="Los Angeles" style="width:100%;">
+      </div>
+
+      <div class="item">
+        <img src="mylogo.jpeg" alt="Chicago" style="width:100%;">
+      </div>
+    
+      <div class="item">
+        <img src="ms.jpeg"  alt="New york" style="width:100%;">
+      </div>
+    </div>
+
+    <!-- Left and right controls -->
+    <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+      <span class="glyphicon glyphicon-chevron-left"></span>
+      <span class="sr-only">Previous</span>
+    </a>
+    <a class="right carousel-control" href="#myCarousel" data-slide="next">
+      <span class="glyphicon glyphicon-chevron-right"></span>
+      <span class="sr-only">Next</span>
+    </a>
+  </div>
+</div>
+
+<h2 id="event">
+	UPCOMING EVENTS
+</h2>
+<div class="grid-container">
+<div class="grid-item"> <img src="myphoto.jpeg" id="image"></div>
+<div class="grid-item">Monoring Gathering
+<p>A paragraph is a group of words put together to form a group that is usually longer than a sentence. Paragraphs are often made up of several sentences. There are usually between three and eight sentences. ... In most organized forms of writing, such as essays, paragraphs contain a topic sentence .</p>
+<h6> </h6></div>
+<div class="grid-item"><button class="button">BOOK NOW</button></div>
+<div class="grid-item"> <img src="mylogo.jpeg" id="image"></div>
+<div class="grid-item">Child Dedication
+<p>A paragraph is a group of words put together to form a group that is usually longer than a sentence. Paragraphs are often made up of several sentences. There are usually between three and eight sentences. ... In most organized forms of writing, such as essays, paragraphs contain a topic sentence .</p></div>
+<div class="grid-item"><button class="button">BOOK NOW</button></div>
+<div class="grid-item"><img src="ms.jpeg" id="image"></div>
+<div class="grid-item">Sunday School
+<p>A paragraph is a group of words put together to form a group that is usually longer than a sentence. Paragraphs are often made up of several sentences. There are usually between three and eight sentences. ... In most organized forms of writing, such as essays, paragraphs contain a topic sentence .</p></div>
+<div class="grid-item"><button class="button">BOOK NOW</button></div>
+</div>
+
+<div class="row" style="text-align: center;margin-left: 150px;">
+  <div class="column" style="background-color: red;color: white;">
+
+    	<h2>Kids On Mission</h2>
+			<p>India finds itself in the list of top mysterious countries and holds its position tight with those being still unsolved. Owing to India’s vast size, cultural differences, mythological stories, it naturally becomes a land of strange tales.</p>
+  </div>
+  <div class="column" style="background-color: blue;color: white;">
+    
+    	<h2>InternShips</h2>
+			<p>India finds itself in the list of top mysterious countries and holds its position tight with those being still unsolved. Owing to India’s vast size, cultural differences, mythological stories, it naturally becomes a land of strange tales.</p>
+  </div>
+  <div class="column" style="background-color: green;color: white;">
+    <h2>Our Mission</h2>
+			<p>India finds itself in the list of top mysterious countries and holds its position tight with those being still unsolved. Owing to India’s vast size, cultural differences, mythological stories, it naturally becomes a land of strange tales.</p>
+  </div>
+  <div class="column" style="background-color: brown;color: white;">
+   <h2>Our Community</h2>
+			<p>India finds itself in the list of top mysterious countries and holds its position tight with those being still unsolved. Owing to India’s vast size, cultural differences, mythological stories, it naturally becomes a land of strange tales.</p>
+  </div>
+
+</div>
+
+<footer>
+<table>
+	<h2>OUR EVENTS</h2>
+
+	<tr>
+		<td><img src="ms.jpeg" id="image" style="margin-left: 265px;">
+		<h4 style="text-align: center;">Sunday School</h4>
+		<p style="text-align: justify;">A paragraph is a group of words put together to form a group that is usually longer than a sentence. Paragraphs are often made up of several sentences. There are usually between three and eight sentences. ... In most organized forms of writing, such as essays, paragraphs contain a topic sentence .</p></td>
+	
+		<td><img src="ms.jpeg" id="image" style="margin-left: 260px;">
+		<h4 style="text-align: center;">Sunday School</h4>
+		<p style="text-align: justify;">A paragraph is a group of words put together to form a group that is usually longer than a sentence. Paragraphs are often made up of several sentences. There are usually between three and eight sentences. ... In most organized forms of writing, such as essays, paragraphs contain a topic sentence .</p></td>
+	</tr>
+
+</table>
+</footer>
+</body>
+</html>
